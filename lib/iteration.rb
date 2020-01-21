@@ -8,7 +8,7 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   row_index = 0
   while src[row_index] do
-    puts src[row_index]
+    template = "I love #{src[row_index]}"
     row_index += 1
   end
 end
