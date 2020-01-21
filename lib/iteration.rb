@@ -13,6 +13,7 @@ def join_ingredients(src)
     string_array << template
     row_index += 1
   end
+  string_array
 end
 
 def find_greater_pair(src)
