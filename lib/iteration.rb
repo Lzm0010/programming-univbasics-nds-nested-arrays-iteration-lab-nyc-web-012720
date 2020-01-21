@@ -10,6 +10,7 @@ def join_ingredients(src)
   row_index = 0
   while src[row_index] do
     template = "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
+    string_array << template
     row_index += 1
   end
 end
