@@ -24,7 +24,7 @@ def find_greater_pair(src)
   i = 0
   while src[i] do
     if src[i][0] > src[i][1]
-      
+      large_array << src[i][0]
   end
 end
 
